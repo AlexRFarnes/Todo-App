@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #444;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  /* color: rgb(179, 131, 226); */
+  color: rgb(147, 255, 154);
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.6;
+  margin: 10px auto;
+}
+
+.form-container {
+  box-shadow: 13px 13px 20px #cdced1, -13px -13px 20px #fff;
+  max-width: 100%;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.input {
+  font-size: 1.6rem;
+  color: #444;
+  border: none;
+  display: block;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  box-shadow: inset 8px 8px 8px #dcdce0, inset -8px -8px 8px #fff;
+}
+
+.input:focus {
+  border: 1px solid rgb(147, 255, 154);
+  outline: none;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.todos {
+  padding: 10px;
+  background: #f5f5f5;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.todo {
+  margin: 10px 0;
+  box-shadow: 8px 8px 8px #dcdce0, -8px -8px 8px #fff;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: #fff;
+  box-shadow: 0px 0px 2px #f5f5f5, 0px 0px 0px 5px #ecf0f3, 5px 5px 8px #cbcdd1,
+    -5px -5px 8px #fff;
+  margin: 0px 6px;
+  transition: all 0.3s;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn--check {
+  background: #75ff7e;
+}
+
+.btn--trash {
+  background: #e81f44;
+}
