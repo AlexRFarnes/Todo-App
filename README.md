@@ -18,9 +18,9 @@ A todo app with local storage to save the todos even after the browser is closed
 
 ## Screenshots
 
-![Screenshot]()
+![Screenshot](https://user-images.githubusercontent.com/57517804/116334980-b1bb9f00-a808-11eb-9e80-ddceda130482.png)
 
-[Demo]()
+[Demo](https://confident-leakey-eee418.netlify.app)
 
 ## Built With
 
